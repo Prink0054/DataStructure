@@ -1,5 +1,6 @@
 package Array;
-
+//O(n) time
+//o(1) space
 public class MoveZeroesToEnd {
 public static void main(String[] args) {
 	
