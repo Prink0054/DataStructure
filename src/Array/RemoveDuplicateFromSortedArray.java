@@ -17,6 +17,7 @@ public class RemoveDuplicateFromSortedArray {
     		//Comapare the element with the previous(r)index
     		if(arr[res - 1] != arr[i])
     		{
+    			//This 
     			//copy the element if not same
     			arr[res] = arr[i];
     			res++;
