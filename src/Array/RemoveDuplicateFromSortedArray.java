@@ -14,8 +14,10 @@ public class RemoveDuplicateFromSortedArray {
 
     	for(int i = 1; i < n; i++)
     	{
+    		//Comapare the element with the previous(r)index
     		if(arr[res - 1] != arr[i])
     		{
+    			//copy the element if not same
     			arr[res] = arr[i];
     			res++;
     		}
