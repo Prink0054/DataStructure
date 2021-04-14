@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	 
 	 int profit = 0;
 	 for (int i = 1; i < a.length; i++) {
-		
+		//we will check when the bar goeas up and save the profit
 		 if(a[i] > a[i-1]) {
 			 
 			 profit = profit + (a[i] - a[i-1]);
