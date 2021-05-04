@@ -5,36 +5,23 @@ package Array;
 public class Test {
 
 	public static void main(String[] args) {
-				int a[] = {8,5,0,10,0,20,9,0,6,5};
-
+				int a[] = {3,4,1,6,4};
+				int first = a[0];
     	
-    	for (int i = 0; i < a.length; i++) {
+    	for (int i = 1; i < a.length; i++) {
 			
-    	if(a[i] == 0) {
-    		
-    		//System.out.println(a[i]);
-    		
-    		for (int j = i+1; j < a.length; j++) {
-    			
-    			if(a[j] != 0) {
-    				int temp = a[i];
-    				a[i] = a[j];
-    				a[j] = temp; 
-    			}
-			}
+    		a[i-1] = a[i];
+    	
     		
     	}
-
+    	a[a.length-1] = first;
     	
-    			
-    		}
-    		
-    	for (int j = 0; j < a.length; j++) {
-			System.out.println(a[j]);
+
+    	for (int i = 0; i < a.length; i++) {
+			
 		}
     	
-    	
-    	
-    	
-	}
+}
+	
+
 }

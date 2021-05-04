@@ -35,7 +35,7 @@ public static void main(String[] args) {
 //o(n)
 //o(1)
 
-public class Test {
+ class Test1 {
 
 	public static void main(String[] args) {
 				int a[] = {8,5,0,10,0,20,9,0,6,5};
