@@ -4,7 +4,7 @@ public class CountOccurrenceInSortedArray {
 
 	
 public static void main(String[] args) {
-	int a[] = {5, 10, 10,15, 20};
+	int a[] = {5, 10, 10,10,10,10,10,15, 20};
 	int x = 10;
 
 	int low = 0;
@@ -15,6 +15,9 @@ public static void main(String[] args) {
 	int second = array.secondOcurrence(a,x); 
 System.out.println(first);
 System.out.println(second);
+//to find the total count of element in sorted arrays
+int totalocurrence = second-1+1;
+System.out.println(totalocurrence);
 }
 
  
